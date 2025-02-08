@@ -341,6 +341,7 @@ img {
 /*==================== BUTTONS ====================*/
 .button {
   display: inline-block;
+  border: none;
   background-color: var(--first-color);
   color: #fff;
   padding: 1rem;
