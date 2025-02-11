@@ -5,6 +5,31 @@
 :root {
   --header-height: 3rem;
 
+
+  /*new feature*/
+.fade-in{
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.scroll-animation {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.scroll-animation.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
   /*========== Colors ==========*/
   /* Change favorite color */
   --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
